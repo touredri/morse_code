@@ -28,13 +28,13 @@ morse_code = {
 }
 
 def decode_char(string, morse_code)
-  puts morse_code[string]
+   morse_code[string]
 end
 
 def decode_word(morse, morse_code)
   decoded_chars = morse.split.map { |char| morse_code[char] }
   decoded_word = decoded_chars.join
-  puts decoded_word
+   decoded_word
 end
 
 def decode_message(message, morse_code)
