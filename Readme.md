@@ -54,10 +54,8 @@ In order to run this project you need:
 
 Clone this repository to your desired folder:
 
-```
   cd my-folder
-  git clone https://github.com/SamTush/morse.git
-```
+  git clone https://github.com/touredri/morse.git
 
 ### Usage
 
@@ -65,16 +63,13 @@ To run the project, execute the following command:
 
 Run this code in terminal.
 
-```
   IRB
-```
 Run the methods.
 
-```
     decode_char(".-")
     puts decode_word("-- -.--")
     puts decode_message(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
-```
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,7 +95,7 @@ Run the methods.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/SamTush/morse-code/issues).
+Feel free to check the [issues page](https://github.com/touredri/morse_code/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
