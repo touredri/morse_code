@@ -55,7 +55,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
   cd my-folder
-  git clone https://github.com/touredri/morse.git
+  git clone https://github.com/touredri/morse-code.git
 
 ### Usage
 
