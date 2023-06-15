@@ -28,21 +28,19 @@ morse_code = {
 }
 
 def decode_char(string, morse_code)
-   morse_code[string]
+  print morse_code[string]
 end
 
 def decode_word(morse, morse_code)
-  decoded_chars = morse.split.map { |char| morse_code[char] }
-  decoded_word = decoded_chars.join
-   decoded_word
+  print "#{morse.split.map { |char| decode_char(char, morse_code) }.join} "
 end
 
 def decode_message(message, morse_code)
-  words = message.split('   ').map { |word| decode_word(word, morse_code) }
-  decoded_message = words.join(' ')
-  print decoded_message
+  print message.split('   ').map { |word| decode_word(word, morse_code) }.join(' ')
 end
 
 decode_char('.-', morse_code)
+print(' ')
 decode_word('-- -.--', morse_code)
+print(' ')
 decode_message('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...', morse_code)
